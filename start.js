@@ -4,20 +4,20 @@
     console.log(new Person());
   
     // 2. What's prototype?
-    const name = 'Lalita';
+    const name = 'Lali';
     console.log(name.__proto__);
   
     const arr = [];
     console.log(arr.__proto__);
   
     // 3. Prototype chain
-    const name = 'Lalita';
+    const name = 'Lali';
     console.log(name.toString());
     console.log(name.__proto__);
     console.log(name.__proto__.__proto__);
   
     // 4. Extend a prototype
-    const name = 'Lalita';
+    const name = 'Lali';
     function sayHello(val) {
       console.log(`Hello ${val}`);
     }
